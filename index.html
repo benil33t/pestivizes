@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0A1628" />
+<title>Pesti Vizes — Gyors és megbízható vízszerelés Budapesten</title>
+<meta name="description" content="Csőtörés, duguláselhárítás, WC javítás, bojler csere, fürdőszoba felújítás Budapesten. Átlagos kiérkezés 30–60 perc. 4+ év tapasztalat, garantált munka." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============== NAV ============== -->
+<header class="nav" id="nav">
+  <div class="nav__inner container">
+    <a href="#" class="nav__brand" aria-label="Pesti Vizes — Balázs Gábor főoldal">
+      <img src="images/logo-mark.png" alt="" class="nav__logo" />
+      <span class="nav__name">
+        <span class="nav__name-main">Pesti<span class="nav__name-accent">Vizes</span></span>
+        <span class="nav__name-sub">Balázs Gábor</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Fő navigáció">
+      <a href="#szolgaltatasok">Szolgáltatások</a>
+      <a href="#miert-minket">Miért minket</a>
+      <a href="#folyamat">Folyamat</a>
+      <a href="#referenciak">Referenciák</a>
+      <a href="#velemenyek">Vélemények</a>
+      <a href="#gyik">GYIK</a>
+    </nav>
+
+    <a href="tel:+36303777579" class="nav__cta">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      </svg>
+      <span>+36/30 377-7579</span>
+    </a>
+
+    <button class="nav__burger" id="burger" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav__mobile" id="navMobile" hidden>
+    <a href="#szolgaltatasok">Szolgáltatások</a>
+    <a href="#miert-minket">Miért minket</a>
+    <a href="#folyamat">Folyamat</a>
+    <a href="#referenciak">Referenciák</a>
+    <a href="#velemenyek">Vélemények</a>
+    <a href="#gyik">GYIK</a>
+    <a href="tel:+36303777579" class="nav__mobile-cta">📞 +36/30 377-7579</a>
+  </div>
+</header>
+
+<!-- ============== HERO ============== -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__bg-grad"></div>
+    <div class="hero__bg-grid"></div>
+    <div class="hero__bg-drops">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero__bg-glow"></div>
+  </div>
+
+  <div class="container hero__inner">
+    <div class="hero__copy reveal">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Jelenleg elérhetők vagyunk Budapesten
+      </div>
+
+      <h1 class="hero__title">
+        Gyors és megbízható
+        <span class="hero__title-grad">vízszerelés</span>
+        Budapesten
+      </h1>
+
+      <p class="hero__sub">
+        Csőtörés, WC javítás, vízvezeték szerelés, fürdőszoba felújítás és
+        sürgősségi hibaelhárítás — érkezünk, mielőtt elönt a víz.
+      </p>
+
+      <div class="hero__ctas">
+        <a href="tel:+36303777579" class="btn btn--primary">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+          Azonnali hívás
+          <span class="btn__pulse"></span>
+        </a>
+        <a href="#visszahivas" class="btn btn--ghost">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect x="3.5" y="4.5" width="17" height="15" rx="2" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M3.5 8.5h17M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          Visszahívást kérek
+        </a>
+      </div>
+
+      <div class="hero__trust">
+        <div class="hero__trust-stars" aria-label="4.9-es értékelés">
+          <svg viewBox="0 0 20 20" fill="#FACC15"><path d="M10 1l2.6 5.4 5.9.8-4.3 4 1.1 5.8L10 14.7l-5.3 2.3 1.1-5.8L1.5 7.2l5.9-.8L10 1z"/></svg>
+          <svg viewBox="0 0 20 20" fill="#FACC15"><path d="M10 1l2.6 5.4 5.9.8-4.3 4 1.1 5.8L10 14.7l-5.3 2.3 1.1-5.8L1.5 7.2l5.9-.8L10 1z"/></svg>
+          <svg viewBox="0 0 20 20" fill="#FACC15"><path d="M10 1l2.6 5.4 5.9.8-4.3 4 1.1 5.8L10 14.7l-5.3 2.3 1.1-5.8L1.5 7.2l5.9-.8L10 1z"/></svg>
+          <svg viewBox="0 0 20 20" fill="#FACC15"><path d="M10 1l2.6 5.4 5.9.8-4.3 4 1.1 5.8L10 14.7l-5.3 2.3 1.1-5.8L1.5 7.2l5.9-.8L10 1z"/></svg>
+          <svg viewBox="0 0 20 20" fill="#FACC15"><path d="M10 1l2.6 5.4 5.9.8-4.3 4 1.1 5.8L10 14.7l-5.3 2.3 1.1-5.8L1.5 7.2l5.9-.8L10 1z"/></svg>
+        </div>
+        <span>4.9 / 5 · 180+ Google értékelés</span>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal">
+      <div class="hero__card">
+        <div class="hero__card-head">
+          <span class="hero__live"><span class="hero__live-dot"></span>élő</span>
+          <span class="hero__card-title">Sürgősségi kiérkezés</span>
+        </div>
+        <div class="hero__card-eta">
+          <span class="hero__card-eta-num">~38</span>
+          <span class="hero__card-eta-unit">perc</span>
+        </div>
+        <div class="hero__card-progress" aria-hidden="true">
+          <div class="hero__card-progress-bar"></div>
+        </div>
+        <div class="hero__card-rows">
+          <div class="hero__card-row">
+            <span class="hero__card-row-ic ok">✓</span>
+            <span>Diszpécser fogadta a hívást</span>
+          </div>
+          <div class="hero__card-row">
+            <span class="hero__card-row-ic ok">✓</span>
+            <span>Szerelő úton van</span>
+          </div>
+          <div class="hero__card-row">
+            <span class="hero__card-row-ic load"></span>
+            <span>Hiba felmérése</span>
+          </div>
+          <div class="hero__card-row dim">
+            <span class="hero__card-row-ic idle"></span>
+            <span>Javítás indítása</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual-orb hero__visual-orb--1"></div>
+      <div class="hero__visual-orb hero__visual-orb--2"></div>
+    </div>
+  </div>
+
+  <!-- Number strip -->
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat">
+        <div class="stat__num"><span class="counter" data-target="500" data-suffix="+">0</span></div>
+        <div class="stat__label">elégedett ügyfél</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num"><span class="counter" data-target="4" data-suffix="+">0</span></div>
+        <div class="stat__label">év tapasztalat</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num"><span class="counter" data-target="30" data-suffix="–60'">0</span></div>
+        <div class="stat__label">átlagos kiérkezés</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num"><span class="counter" data-target="100" data-suffix="%">0</span></div>
+        <div class="stat__label">garancia</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SERVICES ============== -->
+<section class="section" id="szolgaltatasok">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="eyebrow">Szolgáltatások</span>
+      <h2 class="section__title">Mindenre van megoldás, amiben víz van</h2>
+      <p class="section__lead">A leggyakoribb hibáktól a teljes fürdőszoba felújításig — egy csapat, egy ár, egy garancia.</p>
+    </header>
+
+    <div class="services">
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M5 12 H 27 M5 20 H 27" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M11 12 v 8 M21 12 v 8" stroke="currentColor" stroke-width="2"/>
+            <circle cx="16" cy="16" r="2.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Csőtörés javítás</h3>
+        <p>Lokalizálás, kibontás, csere és helyreállítás — minimális károkozással.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 1–3 óra</span>
+          <span class="chip chip--accent">Sürgősségi</span>
+        </div>
+        <a href="tel:+36303777579" class="service__cta">Hívás <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M16 4 C 9 14, 5 18, 5 22 a 11 11 0 0 0 22 0 c 0 -4 -4 -8 -11 -18 z" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 22 a 6 6 0 0 0 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Duguláselhárítás</h3>
+        <p>Konyha, fürdő, WC és lefolyó — gépi és vegyi megoldások, kamerás vizsgálat.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 30–90 perc</span>
+        </div>
+        <a href="tel:+36303777579" class="service__cta">Hívás <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect x="8" y="6" width="16" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 20 L 10 26 M22 20 L 22 26 M12 26 H 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 12 H 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>WC javítás és csere</h3>
+        <p>Tartály, öblítő, gomb, ülőke, teljes WC csere — bármilyen márka, bármilyen kor.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 1–2 óra</span>
+        </div>
+        <a href="tel:+36303777579" class="service__cta">Hívás <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect x="9" y="4" width="14" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M13 10 H 19 M13 15 H 19 M13 20 H 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Bojler csere</h3>
+        <p>Régi bojler szakszerű leszerelése, új beüzemelése, csatlakozók cseréje.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 2–4 óra</span>
+        </div>
+        <a href="tel:+36303777579" class="service__cta">Hívás <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M5 22 C 5 17, 9 14, 16 14 S 27 17, 27 22" stroke="currentColor" stroke-width="2"/>
+            <path d="M5 22 H 27" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M11 11 v -4 M21 11 v -4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Kád és zuhany csere</h3>
+        <p>Régi kád/zuhanytálca bontása, új beépítése, szifon és csaptelep szereléssel.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 4–8 óra</span>
+        </div>
+        <a href="tel:+36303777579" class="service__cta">Hívás <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M6 8 H 16 V 24 H 6 z" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 12 H 26 M16 20 H 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="11" cy="16" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Vízvezeték szerelés</h3>
+        <p>Új hálózat kiépítése, áthelyezés, rézcső / PPR / PEX — rejtett és falon kívüli.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ Egyedi</span>
+        </div>
+        <a href="tel:+36303777579" class="service__cta">Hívás <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect x="4" y="8" width="24" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 14 H 28" stroke="currentColor" stroke-width="2"/>
+            <circle cx="9" cy="11" r="1.2" fill="currentColor"/>
+            <circle cx="14" cy="11" r="1.2" fill="currentColor"/>
+            <path d="M14 20 H 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Fürdőszoba felújítás</h3>
+        <p>Tervezéstől kulcsrakész átadásig — bontás, gépészet, burkolás, szerelvények.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 1–3 hét</span>
+          <span class="chip chip--accent">Kulcsrakész</span>
+        </div>
+        <a href="#visszahivas" class="service__cta">Ajánlatkérés <span>→</span></a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect x="6" y="4" width="20" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 10 H 22 M10 16 H 22 M10 22 H 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Panel vízhálózat felújítás</h3>
+        <p>Régi ólom és horgany csövek cseréje modern rendszerre — panellakásra specializálva.</p>
+        <div class="service__meta">
+          <span class="chip">⏱ 1–2 nap</span>
+        </div>
+        <a href="#visszahivas" class="service__cta">Ajánlatkérés <span>→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== WHY US ============== -->
+<section class="section section--dark" id="miert-minket">
+  <div class="why__bg" aria-hidden="true"></div>
+  <div class="container">
+    <header class="section__head reveal section__head--light">
+      <span class="eyebrow eyebrow--light">Miért minket</span>
+      <h2 class="section__title">Egy szerelő, akit szívesen hív vissza</h2>
+      <p class="section__lead section__lead--light">Nincs trükk, nincs felesleges óra — csak munka, ami megéri.</p>
+    </header>
+
+    <div class="why">
+      <div class="why__card reveal">
+        <div class="why__ic">⚡</div>
+        <h3>Gyors kiszállás</h3>
+        <p>Sürgős esetben 30–60 percen belül a helyszínen vagyunk Budapesten belül.</p>
+      </div>
+      <div class="why__card reveal">
+        <div class="why__ic">🛡️</div>
+        <h3>Garancia</h3>
+        <p>Minden munkára írásos, dokumentált garanciát adunk — átláthatóan.</p>
+      </div>
+      <div class="why__card reveal">
+        <div class="why__ic">🧼</div>
+        <h3>Tiszta munkavégzés</h3>
+        <p>Letakarjuk, leszedjük, takarítunk magunk után. Úgy hagyjuk, ahogy találtuk.</p>
+      </div>
+      <div class="why__card reveal">
+        <div class="why__ic">🛠️</div>
+        <h3>Tapasztalat</h3>
+        <p>4+ év, 500+ kiszállás, panel-, családi ház és új építésű ingatlan terén egyaránt.</p>
+      </div>
+      <div class="why__card reveal">
+        <div class="why__ic">🚚</div>
+        <h3>Anyag beszerzés</h3>
+        <p>Megbízható partnereinkkel az alkatrészt is mi visszük — Önnek nem kell rohanni.</p>
+      </div>
+      <div class="why__card reveal">
+        <div class="why__ic">💳</div>
+        <h3>Átlátható ár</h3>
+        <p>Helyszíni felmérés után fix árajánlat. Készpénz, utalás, kártya — Ön választ.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROCESS ============== -->
+<section class="section" id="folyamat">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="eyebrow">Hogyan dolgozunk?</span>
+      <h2 class="section__title">A hívástól az átadásig — 4 lépés</h2>
+      <p class="section__lead">Egyszerű, kiszámítható és gyors. Pontosan tudja, mi következik.</p>
+    </header>
+
+    <ol class="process">
+      <li class="process__step reveal">
+        <span class="process__num">01</span>
+        <h3>Kapcsolatfelvétel</h3>
+        <p>Telefonon vagy űrlapon keresztül leírja a problémát — mi azonnal foglalkozunk vele.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">02</span>
+        <h3>Felmérés</h3>
+        <p>Kiérkezünk, megnézzük a hibát, és pontos árajánlatot adunk, mielőtt bármit megbontunk.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">03</span>
+        <h3>Javítás</h3>
+        <p>Egyeztetés után elvégezzük a munkát — minőségi anyagokból, profi eszközökkel.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">04</span>
+        <h3>Átadás</h3>
+        <p>Bemutatjuk, letakarítunk, számlát adunk, és élesben kipróbáljuk a megoldást.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============== REFERENCES ============== -->
+<section class="section section--soft" id="referenciak">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="eyebrow">Referenciák</span>
+      <h2 class="section__title">Balázs Gábor — Referenciáim</h2>
+    </header>
+
+    <div class="references__bio reveal">
+      <p><strong>Balázs Gábor vízvezetékszerelő vagyok.</strong> Szakértelmemmel és elkötelezettségemmel már évek óta szolgálom ki ügyfeleimet. Munkám során mindig a legmagasabb színvonalat képviselem, legyen szó lakossági víz- és csatornarendszerekről.</p>
+      <p>Az ügyfelek elégedettsége kiemelten fontos számomra, ezért minden megbízás során figyelek a részletekre és a minőségre. Széleskörű tapasztalatom lehetővé teszi, hogy gyorsan és hatékonyan oldjam meg a felmerülő problémákat, legyen az csőtörés, lefolyódugulás vagy komplett vízhálózat kiépítése.</p>
+      <p>Munkáimat a legmodernebb technológiák és anyagok alkalmazásával végzem, biztosítva ezzel a tartósságot és a megbízhatóságot. Ügyfeleim számára mindig részletes tájékoztatást nyújtok a folyamatokról, így mindenki pontosan tudja, mit várhat a szolgáltatásomtól.</p>
+      <p>Vízszerelőként nem csupán egy szakember vagyok, hanem egy megbízható partner is, aki a legjobb megoldásokat kínálja ügyfelei számára. Kérem, tekintse meg referenciáimat, ahol találkozhat eddigi munkáimmal és hozzájárulásommal a különböző projektekhez.</p>
+    </div>
+
+    <div class="references__gallery">
+      <article class="ref-card reveal" data-pair="1">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="1. kép nagy nézet">
+            <img src="images/1.webp" alt="Referencia munka 1" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="2. kép nagy nézet">
+            <img src="images/2.webp" alt="Referencia munka 2" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="2">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="3. kép nagy nézet">
+            <img src="images/3.webp" alt="Referencia munka 3" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="4. kép nagy nézet">
+            <img src="images/4.webp" alt="Referencia munka 4" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="3">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="5. kép nagy nézet">
+            <img src="images/5.webp" alt="Referencia munka 5" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="6. kép nagy nézet">
+            <img src="images/6.webp" alt="Referencia munka 6" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="4">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="7. kép nagy nézet">
+            <img src="images/7.webp" alt="Referencia munka 7" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="8. kép nagy nézet">
+            <img src="images/8.webp" alt="Referencia munka 8" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="5">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="9. kép nagy nézet">
+            <img src="images/9.jpg" alt="Referencia munka 9" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="10. kép nagy nézet">
+            <img src="images/10.jpg" alt="Referencia munka 10" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="6">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="11. kép nagy nézet">
+            <img src="images/11.webp" alt="Referencia munka 11" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="12. kép nagy nézet">
+            <img src="images/12.webp" alt="Referencia munka 12" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="7">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="13. kép nagy nézet">
+            <img src="images/13.webp" alt="Referencia munka 13" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="14. kép nagy nézet">
+            <img src="images/14.webp" alt="Referencia munka 14" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="8">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="15. kép nagy nézet">
+            <img src="images/15.jpg" alt="Referencia munka 15" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="16. kép nagy nézet">
+            <img src="images/16.webp" alt="Referencia munka 16" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+
+      <article class="ref-card reveal" data-pair="9">
+        <div class="ref-card__viewport">
+          <button class="ref-card__slide is-active" data-idx="0" type="button" aria-label="17. kép nagy nézet">
+            <img src="images/17.webp" alt="Referencia munka 17" loading="lazy" />
+          </button>
+          <button class="ref-card__slide" data-idx="1" type="button" aria-label="18. kép nagy nézet">
+            <img src="images/18.webp" alt="Referencia munka 18" loading="lazy" />
+          </button>
+        </div>
+        <button class="ref-card__nav ref-card__nav--prev" type="button" aria-label="Előző kép">‹</button>
+        <button class="ref-card__nav ref-card__nav--next" type="button" aria-label="Következő kép">›</button>
+        <span class="ref-card__counter"><b>1</b> / 2</span>
+        <div class="ref-card__dots">
+          <button class="is-active" data-idx="0" type="button" aria-label="1. kép"></button>
+          <button data-idx="1" type="button" aria-label="2. kép"></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Bezárás">×</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="Előző">‹</button>
+  <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="Következő">›</button>
+  <div class="lightbox__stage">
+    <img id="lightboxImg" src="" alt="" />
+    <div class="lightbox__counter" id="lightboxCounter"></div>
+  </div>
+</div>
+
+<!-- ============== CALLBACK ============== -->
+<section class="section callback" id="visszahivas">
+  <div class="container callback__inner">
+    <div class="callback__copy reveal">
+      <span class="eyebrow eyebrow--light">Visszahívás</span>
+      <h2 class="section__title section__title--light">Hagyjon egy számot — 15 percen belül visszahívjuk</h2>
+      <p class="section__lead section__lead--light">Nyitvatartási időben 8–20 óra között szinte azonnal. Sürgős esetben hívjon közvetlenül.</p>
+      <a href="tel:+36303777579" class="callback__phone">📞 +36/30 377-7579</a>
+    </div>
+
+    <form class="callback__form reveal" onsubmit="event.preventDefault(); this.querySelector('.callback__ok').hidden=false; this.querySelector('button').textContent='Köszönjük!';">
+      <label>
+        <span>Név</span>
+        <input type="text" required placeholder="Kovács Anna" />
+      </label>
+      <label>
+        <span>Telefonszám</span>
+        <input type="tel" required placeholder="+36 30 ..." />
+      </label>
+      <label>
+        <span>Probléma rövid leírása</span>
+        <textarea rows="3" placeholder="Pl. csöpög a vízcsap a fürdőben"></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary btn--block">Visszahívást kérek</button>
+      <p class="callback__ok" hidden>✓ Megkaptuk — hamarosan hívjuk Önt.</p>
+      <p class="callback__fine">Az adatok kizárólag a visszahíváshoz kerülnek felhasználásra.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============== REVIEWS ============== -->
+<section class="section" id="velemenyek">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="eyebrow">Vélemények</span>
+      <h2 class="section__title">Mit mondanak az ügyfeleink?</h2>
+      <p class="section__lead">Hiteles Google értékelések — szerkesztetlen, valódi visszajelzések.</p>
+    </header>
+
+    <div class="reviews">
+      <article class="review reveal">
+        <div class="review__head">
+          <div class="review__avatar" style="background:#0EA5E9">KA</div>
+          <div>
+            <strong>Kovács Anna</strong>
+            <div class="review__stars">★★★★★ <span>· 2 hete</span></div>
+          </div>
+          <svg class="review__g" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#4285F4" d="M43.6 20.5h-1.6V20H24v8h11.3a12 12 0 1 1-3.4-12.7l5.7-5.7A20 20 0 1 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+            <path fill="#34A853" d="M6.3 14.7l6.6 4.8A12 12 0 0 1 24 12c3 0 5.7 1 7.9 2.8l5.7-5.7A20 20 0 0 0 6.3 14.7z"/>
+            <path fill="#FBBC04" d="M24 44a20 20 0 0 0 13.7-5.2l-6.3-5.3A12 12 0 0 1 12.7 28L6.1 33.1A20 20 0 0 0 24 44z"/>
+            <path fill="#EA4335" d="M43.6 20.5H24v8h11.3a12 12 0 0 1-4.6 6l6.3 5.3A20 20 0 0 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+          </svg>
+        </div>
+        <p>Vasárnap este csőtörés a fürdőben — 40 percen belül itt voltak. Profi, tiszta munka, korrekt ár. Ajánlom!</p>
+      </article>
+
+      <article class="review reveal">
+        <div class="review__head">
+          <div class="review__avatar" style="background:#10B981">PB</div>
+          <div>
+            <strong>Patai Bence</strong>
+            <div class="review__stars">★★★★★ <span>· 1 hónapja</span></div>
+          </div>
+          <svg class="review__g" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#4285F4" d="M43.6 20.5h-1.6V20H24v8h11.3a12 12 0 1 1-3.4-12.7l5.7-5.7A20 20 0 1 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+            <path fill="#34A853" d="M6.3 14.7l6.6 4.8A12 12 0 0 1 24 12c3 0 5.7 1 7.9 2.8l5.7-5.7A20 20 0 0 0 6.3 14.7z"/>
+            <path fill="#FBBC04" d="M24 44a20 20 0 0 0 13.7-5.2l-6.3-5.3A12 12 0 0 1 12.7 28L6.1 33.1A20 20 0 0 0 24 44z"/>
+            <path fill="#EA4335" d="M43.6 20.5H24v8h11.3a12 12 0 0 1-4.6 6l6.3 5.3A20 20 0 0 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+          </svg>
+        </div>
+        <p>Fürdőszoba felújítást rendeltünk — határidőre kész, mindent leegyeztettek előre. A kollégák kedvesek, precízek, korrekt árajánlat.</p>
+      </article>
+
+      <article class="review reveal">
+        <div class="review__head">
+          <div class="review__avatar" style="background:#F59E0B">SZE</div>
+          <div>
+            <strong>Szabó Eszter</strong>
+            <div class="review__stars">★★★★★ <span>· 3 hónapja</span></div>
+          </div>
+          <svg class="review__g" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#4285F4" d="M43.6 20.5h-1.6V20H24v8h11.3a12 12 0 1 1-3.4-12.7l5.7-5.7A20 20 0 1 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+            <path fill="#34A853" d="M6.3 14.7l6.6 4.8A12 12 0 0 1 24 12c3 0 5.7 1 7.9 2.8l5.7-5.7A20 20 0 0 0 6.3 14.7z"/>
+            <path fill="#FBBC04" d="M24 44a20 20 0 0 0 13.7-5.2l-6.3-5.3A12 12 0 0 1 12.7 28L6.1 33.1A20 20 0 0 0 24 44z"/>
+            <path fill="#EA4335" d="M43.6 20.5H24v8h11.3a12 12 0 0 1-4.6 6l6.3 5.3A20 20 0 0 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+          </svg>
+        </div>
+        <p>WC tartály cserénél kerestem őket — egy másik szerelő háromszoros árat kért volna. Egyszerű, gyors, garanciás. Köszi!</p>
+      </article>
+
+      <article class="review reveal">
+        <div class="review__head">
+          <div class="review__avatar" style="background:#8B5CF6">NG</div>
+          <div>
+            <strong>Nagy Gábor</strong>
+            <div class="review__stars">★★★★★ <span>· 5 hónapja</span></div>
+          </div>
+          <svg class="review__g" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#4285F4" d="M43.6 20.5h-1.6V20H24v8h11.3a12 12 0 1 1-3.4-12.7l5.7-5.7A20 20 0 1 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+            <path fill="#34A853" d="M6.3 14.7l6.6 4.8A12 12 0 0 1 24 12c3 0 5.7 1 7.9 2.8l5.7-5.7A20 20 0 0 0 6.3 14.7z"/>
+            <path fill="#FBBC04" d="M24 44a20 20 0 0 0 13.7-5.2l-6.3-5.3A12 12 0 0 1 12.7 28L6.1 33.1A20 20 0 0 0 24 44z"/>
+            <path fill="#EA4335" d="M43.6 20.5H24v8h11.3a12 12 0 0 0-4.6 6l6.3 5.3A20 20 0 0 0 44 24c0-1.2-.1-2.3-.4-3.5z"/>
+          </svg>
+        </div>
+        <p>Panel lakásban régi ólomcsöveket kellett cserélni — pontosan érkeztek, két nap alatt befejezték, és minden tip-top.</p>
+      </article>
+    </div>
+
+    <div class="reviews__cta reveal">
+      <div class="reviews__cta-score">
+        <div class="reviews__cta-num">4.9</div>
+        <div class="reviews__cta-stars">★★★★★</div>
+        <div class="reviews__cta-count">180+ Google értékelés</div>
+      </div>
+      <a href="tel:+36303777579" class="btn btn--primary">Csatlakozzon Ön is</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FAQ ============== -->
+<section class="section section--soft" id="gyik">
+  <div class="container faq__wrap">
+    <header class="section__head section__head--left reveal">
+      <span class="eyebrow">GYIK</span>
+      <h2 class="section__title">Gyakori kérdések</h2>
+      <p class="section__lead">Ha nem talál választ, hívjon — élőben szívesebben magyarázunk.</p>
+      <a href="tel:+36303777579" class="btn btn--primary btn--inline">📞 +36/30 377-7579</a>
+    </header>
+
+    <div class="faq reveal">
+      <details class="faq__item">
+        <summary>
+          <span>Lehet utalni?</span>
+          <span class="faq__plus" aria-hidden="true"></span>
+        </summary>
+        <div class="faq__a"><p>Igen, természetesen. Készpénzt, banki utalást és bankkártyás fizetést is elfogadunk. A számlát minden esetben kiállítjuk.</p></div>
+      </details>
+
+      <details class="faq__item">
+        <summary>
+          <span>Be tudja szerezni az anyagokat?</span>
+          <span class="faq__plus" aria-hidden="true"></span>
+        </summary>
+        <div class="faq__a"><p>Igen — partnereinkkel kedvező áron tudjuk biztosítani a szükséges anyagot és szerelvényt. Önnek nem kell rohangálni, mi mindent helyszínre viszünk.</p></div>
+      </details>
+
+      <details class="faq__item">
+        <summary>
+          <span>Milyen területen dolgoznak?</span>
+          <span class="faq__plus" aria-hidden="true"></span>
+        </summary>
+        <div class="faq__a"><p>Elsősorban Budapest egész területén — de a fővárosi agglomerációba is kijárunk. Hívjon, ellenőrizzük a kiérkezési időt az Ön címére.</p></div>
+      </details>
+
+      <details class="faq__item">
+        <summary>
+          <span>Vállalnak sürgős munkát?</span>
+          <span class="faq__plus" aria-hidden="true"></span>
+        </summary>
+        <div class="faq__a"><p>Igen, sürgősségi kiszállást is végzünk. Átlagos kiérkezésünk 30–60 perc a hívástól számítva, a város szinte minden pontjára.</p></div>
+      </details>
+
+      <details class="faq__item">
+        <summary>
+          <span>Van garancia a munkára?</span>
+          <span class="faq__plus" aria-hidden="true"></span>
+        </summary>
+        <div class="faq__a"><p>Minden elvégzett munkára írásos garanciát adunk — anyag és kivitelezés szerint. A részleteket a helyszíni árajánlatban ismertetjük.</p></div>
+      </details>
+
+      <details class="faq__item">
+        <summary>
+          <span>Hétvégén is dolgoznak?</span>
+          <span class="faq__plus" aria-hidden="true"></span>
+        </summary>
+        <div class="faq__a"><p>Igen, hétvégén és ünnepnapokon is elérhetők vagyunk sürgősségi hibák esetén. Hívjon bizalommal.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FINAL CTA ============== -->
+<section class="finalcta">
+  <div class="container finalcta__inner reveal">
+    <h2>Nem tudja, hogy kit hívjon?</h2>
+    <p>Hívjon minket — egy hívással lezárhatja a problémát.</p>
+    <div class="finalcta__btns">
+      <a href="tel:+36303777579" class="btn btn--primary btn--lg">📞 Azonnali hívás</a>
+      <a href="#visszahivas" class="btn btn--ghost btn--lg">📋 Visszahívást kérek</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="#" class="nav__brand">
+        <img src="images/logo-mark.png" alt="" class="nav__logo nav__logo--footer" />
+        <span class="nav__name nav__name--footer">
+          <span class="nav__name-main">Pesti<span class="nav__name-accent">Vizes</span></span>
+          <span class="nav__name-sub">Balázs Gábor</span>
+        </span>
+      </a>
+      <p>Gyors és megbízható vízszerelés Budapesten. Csőtöréstől fürdőszoba felújításig.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Szolgáltatások</h4>
+      <a href="#szolgaltatasok">Csőtörés javítás</a>
+      <a href="#szolgaltatasok">Duguláselhárítás</a>
+      <a href="#szolgaltatasok">WC javítás</a>
+      <a href="#szolgaltatasok">Bojler csere</a>
+      <a href="#szolgaltatasok">Fürdőszoba felújítás</a>
+    </div>
+    <div class="footer__col">
+      <h4>Kapcsolat</h4>
+      <a href="tel:+36303777579">📞 +36/30 377-7579</a>
+      <a href="mailto:info@pestivizes.hu">✉ info@pestivizes.hu</a>
+      <span>📍 Budapest és agglomeráció</span>
+      <span>🕒 Hétfő–Vasárnap · 0–24</span>
+    </div>
+    <div class="footer__col">
+      <h4>Cég</h4>
+      <a href="#miert-minket">Rólunk</a>
+      <a href="#velemenyek">Vélemények</a>
+      <a href="#gyik">GYIK</a>
+      <a href="#">Adatkezelési tájékoztató</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© 2026 PestiVizes. Minden jog fenntartva.</span>
+    <span>Készült Budapesten szeretettel.</span>
+  </div>
+</footer>
+
+<!-- Floating CTA -->
+<a href="tel:+36303777579" class="floatcta" aria-label="Sürgős hívás">
+  <span class="floatcta__ring"></span>
+  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="currentColor"/>
+  </svg>
+  <span class="floatcta__label">Sürgős? Hívjon most</span>
+</a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
